@@ -7,7 +7,55 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#mybox{
+  width: 90%;
+}
+.btn-group{
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+.Container{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  width: 90vw;
+  margin: 5rem auto;
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  padding: 2.5rem 2rem;
+  max-width: var(--fixed-width);
+  display: grid;
+  gap: 1rem 2rem;
+  padding: 1rem 1.5rem;
+    
+}
+.txt{
+  border: 2px solid var(--clr-grey-special);
+  margin-bottom: 1rem;
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+  padding: 20px ;
+}
+#btn-2 {
+  
+  border-color: transparent;
+  cursor: pointer;
+  margin-left: 1rem;
+  align-self: center;
+}
+#btn1, li{
+  border-color: transparent;
+  cursor: pointer;
+  margin-left: 1rem;
+  align-self: center;
+  padding: 10px;
 }
